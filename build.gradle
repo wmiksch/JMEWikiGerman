@@ -23,7 +23,7 @@ asciidoctor {
 
 	attributes 'build-gradle': file('build.gradle'),
 		'sourcedir': project.asciidoctor.sourceDir,
-		'endpoint-url': 'https://wiki.jmonkeyengine.org',
+		'endpoint-url': 'https://wmiksch.github.io/JMEWikiGerman',
 		'source-highlighter' : 'coderay',
 		'linkcss': 'true',
 		//'imagesdir':'/images',
@@ -33,8 +33,8 @@ asciidoctor {
 		'idprefix':'',
 		'idseparator':'-',
 		'docinfo1':'true',
-		'wiki_link_edit_prefix': 'https://github.com/jMonkeyEngine/wiki/edit/master/src/docs/asciidoc',
-		'wiki_link_create_prefix': 'https://github.com/jMonkeyEngine/wiki/new/master/src/docs/asciidoc',
+		'wiki_link_edit_prefix': 'https://github.com/wmiksch/JMEWikiGerman/edit/master/src/docs/asciidoc',
+		'wiki_link_create_prefix': 'https://github.com/wmiksch/JMEWikiGerman/new/master/src/docs/asciidoc',
 		'orgname':'jMonkeyEngine',
 		'link-javadoc': 'https://javadoc.jmonkeyengine.org/v3.3.2-stable@'
 	options header_footer: true,
