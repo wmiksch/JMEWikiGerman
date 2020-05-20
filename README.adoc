@@ -1,6 +1,6 @@
 :experimental:
 
-image:https://travis-ci.org/jMonkeyEngine/wiki.svg?branch=master["Build Status", link="https://travis-ci.org/jMonkeyEngine/wiki"]
+image:https://travis-ci.org/wmiksch/JMEWikiGerman.svg?branch=master["Build Status", link="https://travis-ci.org/wmiksch/JMEWikiGerman"]
 
 = jMonkeyEngine Documentation
 
