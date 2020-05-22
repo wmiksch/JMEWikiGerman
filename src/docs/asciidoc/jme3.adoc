@@ -1,20 +1,20 @@
-= jMonkeyEngine Tutorials and Documentation
-:author:
+= jMonkeyEngine Tutorials und Dokumentation
+:author: Wolfram Miksch
 :revnumber:
-:revdate: 2016/03/17 20:48
+:revdate: 2020/05/20 13:12
 :keywords: documentation, intro, intermediate, about
 :experimental:
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
 
-TIP: This is an Admonition. You will see many of these scattered throughout the Wiki. See the <<wiki/admonitions#,Admonition Definitions>> for the meaning of this and all the other Admonitions.
+TIP: Das ist ein Warnhinweis. Es wird an verschiedenen Stellen solche im Wiki geben. Unter <<wiki/admonitions#,Warnhinweise>> findest du die Bedeutung dieser.
 
 
 == Installation
 
-*  <<bsd_license#,Use jMonkeyEngine 3 for free under the BSD License>>
-*  <<jme3/requirements#,Software and hardware requirements>>
-*  <<jme3/features#,All Supported Features>>
+*  <<bsd_license#,jMonkeyEngine steht unter der BSD-Lizenz frei zur Verfügung>>
+*  <<jme3/requirements#,Software und Hardware Anforderungen>>
+*  <<jme3/features#,Features>>
 *  link:https://github.com/jMonkeyEngine/sdk#jmonkeyengine-software-development-kit-sdk-[Download jMonkeyEngine 3 SDK]
 
 == SDK Documentation
@@ -23,27 +23,38 @@ TIP: This is an Admonition. You will see many of these scattered throughout the 
 image::sdk/jmonkeyplatform-docu-2.png[jmonkeyplatform-docu-2.png,width="420",height="300"]
 
 
-The <<sdk#,jMonkeyEngine SDK>> is our recommended game development environment.
+Die <<sdk#,jMonkeyEngine SDK>> ist die auf Netbeans basierte empfohlene Entwicklungsumgebung.
 
-*  <<sdk/comic#,jMonkeyEngine SDK - the Comic>>
-*  <<sdk#,SDK Documentation (All editors, plugins, etc)>>
+*  <<sdk/comic#,jMonkeyEngine SDK - Comic>>
+*  <<sdk#,SDK Dokumentation (Editoren, Plugins, usw.)>>
 
-Here are some videos of how the jMonkeyEngine SDK makes your development team's life easier:
+Videos, die die Entwicklung von Spielen damit erleichtern:
 
-*  link:http://www.youtube.com/watch?v=nL7woH40i5c[Video: Importing Models]
-*  link:http://www.youtube.com/watch?v=ntPAmtsQ6eM[Video: Scene Composing]
-*  link:http://www.youtube.com/watch?v=DUmgAjiNzhY[Video: Dragging&amp;Dropping Nodes]
-*  link:http://www.youtube.com/watch?v=Feu3-mrpolc[Video: Working with Materials]
-*  link:http://www.youtube.com/watch?v=MNDiZ9YHIpM[Video: Custom Controls]
-*  Read the <<sdk#,SDK documentation>> for details.
+*  link:http://www.youtube.com/watch?v=nL7woH40i5c[Video: Modelle importieren]
+*  link:http://www.youtube.com/watch?v=ntPAmtsQ6eM[Video: Szenen zusammenstellen]
+*  link:http://www.youtube.com/watch?v=DUmgAjiNzhY[Video: Dragging &amp; Dropping von Knoten (Nodes)]
+*  link:http://www.youtube.com/watch?v=Feu3-mrpolc[Video: Arbeiten mit Materialien]
+*  link:http://www.youtube.com/watch?v=MNDiZ9YHIpM[Video: Eigene Steuerelemente (Controls)]
+*  Lies <<sdk#,SDK documentation>> für Einzelheiten.
 
 
-== Tutorials for Beginners
+== Tutorials für Anfänger
 
-The beginner tutorials demonstrate the most common use cases and explain basic concepts. We encourage you to run the sample codes and experiment with them. link:https://github.com/jMonkeyEngine/jmonkeyengine/tree/master/jme3-examples/src/main/java/jme3test[All example code] is included in the jMonkeyEngine SDK: Simply create a new project from the `JmeTests` template. You can find detailed instructions on setting up the tests under the <<jme3#sample-projects#,Sample Projects>> topic found at the bottom of this page.
+Die Anfängertutorials zeigen die Haupteinsatzgebiete und erklären grundlegende Konzepte. Wir ermuntern sie, die Beispiele auszuführen und damit zu experimentieren.
+link:https://github.com/jMonkeyEngine/jmonkeyengine/tree/master/jme3-examples/src/main/java/jme3test[Der gesamte Beispielcode] ist in der jMonkeyEngine SDK enthalten:
+Erstellen sie einfach ein neues Projekt aus dem `JmeTests` Template. Eine detailierte Anleitung für das Setup dieser Tests finden sie unten beim Kapitel <<jme3#sample-projects#,Beispielprojekte>>
+//The beginner tutorials demonstrate the most common use cases and explain basic concepts. We encourage you to run the sample codes and experiment with them.
+//link:https://github.com/jMonkeyEngine/jmonkeyengine/tree/master/jme3-examples/src/main/java/jme3test[All example code] is included in the jMonkeyEngine SDK:
+//Simply create a new project from the `JmeTests` template.
+//You can find detailed instructions on setting up the tests under the <<jme3#sample-projects#,Sample Projects>> topic found at the bottom of this page.
 
-To start writing your own projects, create a new file from the `BasicGame` template.
-Note that Test apps in this example project are not necessarily the recommended way to build an app with JME, they are just simple one class test case that showcase a feature.
+Um ein eigenes Projekt zu beginnen, erstellen sie eines aus dem `BasicGame` Template.
+Beachten sie, dass die Test Apps in diesem Beispielprojekt nicht unbedingt die perfekte Art und Weise für den Aufbau einer Anwendung sind,
+//geeignetste Methode zum Erstellen einer Applikation mit JME ist.
+sie zeigen lediglich auf einfache Weise die Möglichkeiten von JME auf.
+//To start writing your own projects, create a new file from the `BasicGame` template.
+//Note that Test apps in this example project are not necessarily the recommended way to build an app with JME,
+//they are just simple one class test case that showcase a feature.
 
 
 //[IMPORTANT]
@@ -56,194 +67,203 @@ Note that Test apps in this example project are not necessarily the recommended 
 image::jme3/beginner/beginner-physics.png[beginner-physics.png,width="360",height="291"]
 
 
-*  Make sure you are familiar with basic <<jme3/terminology#,3D game development concepts>> such as <<jme3/the_scene_graph#,the scene graph>>.
+//*  Make sure you are familiar with basic <<jme3/terminology#,3D game development concepts>> such as <<jme3/the_scene_graph#,the scene graph>>.
+* Seien sie mit grundlegenden <<jme3/terminology#,Konzepten der 3D-Spieleentwicklung>> wie dem <<jme3/the_scene_graph#,Szenengraph>> vertraut.
 
-..  <<jme3/beginner/hello_simpleapplication#,Hello SimpleApplication>> – Initializing a SimpleApplication
-..  <<jme3/beginner/hello_node#,Hello Node>> – Transforming Geometries and Nodes in the Scenegraph
-..  <<jme3/beginner/hello_asset#,Hello Assets>> – Loading 3-D models, scenes, and other assets.
-..  <<jme3/beginner/hello_main_event_loop#,Hello Loop>> – Triggering actions in the update loop
-..  <<jme3/beginner/hello_input_system#,Hello Input>> – Responding to keyboard and mouse input
-..  <<jme3/beginner/hello_material#,Hello Material>> – Setting Materials, Textures, Transparency
-..  <<jme3/beginner/hello_animation#,Hello Animation>> – Controlling animated models
-..  <<jme3/beginner/hello_picking#,Hello Picking>> – Shooting, pressing buttons, selecting, picking up items
-..  <<jme3/beginner/hello_collision#,Hello Collision>> – Making walls and floors solid
-..  <<jme3/beginner/hello_terrain#,Hello Terrain>> – Creating hilly landscapes with textures
-..  <<jme3/beginner/hello_audio#,Hello Audio>> – Accompanying places and actions with 3D sound
-..  <<jme3/beginner/hello_effects#,Hello Effects>> – Creating particle effects such as fire, explosions, spells.
-..  <<jme3/beginner/hello_physics#,Hello Physics>> – Bouncing ball and falling bricks
+..  <<jme3/beginner/hello_simpleapplication#,Hello SimpleApplication>> – Fundament einer einfachen Anwendung
+..  <<jme3/beginner/hello_node#,Hello Node>> – Geometrie- und Knotentransformation im Szenengraph
+..  <<jme3/beginner/hello_asset#,Hello Assets>> – Laden von 3D-Modellen, Szenen und anderen Assets
+..  <<jme3/beginner/hello_main_event_loop#,Hello Loop>> – Auslösen von Aktionen in der Update-Loop
+..  <<jme3/beginner/hello_input_system#,Hello Input>> – Auf Maus- und Tastatureingaben reagieren
+..  <<jme3/beginner/hello_material#,Hello Material>> – Materialien, Texturen und Transparenz einsetzen
+..  <<jme3/beginner/hello_animation#,Hello Animation>> – Animierte Modelle kontrollieren
+..  <<jme3/beginner/hello_picking#,Hello Picking>> – Schießen, Knöpfe drücken, Gegenstände auswählen und aufheben
+..  <<jme3/beginner/hello_collision#,Hello Collision>> – Wände und Böden undurchlässig machen
+..  <<jme3/beginner/hello_terrain#,Hello Terrain>> – Berglandschaften mit Texturen erstellen
+..  <<jme3/beginner/hello_audio#,Hello Audio>> – Aktionen und Standorte mit 3d-Sound versehen
+..  <<jme3/beginner/hello_effects#,Hello Effects>> – Partikeleffekte, wie Feuer, Explosionen, Glimmer
+..  <<jme3/beginner/hello_physics#,Hello Physics>> – Springende Bälle und fallende Klötze
 
-*  See <<sdk/sample_code#,Trouble running the samples>> if you need help
-or try searching the wiki (search box is at the top of every wiki page) or using the link:https://hub.jmonkeyengine.org/search?expanded=true[forum search]. If that doesn't work try asking on the link:https://hub.jmonkeyengine.org/search?expanded=true[forum] itself, make sure you learn https://hub.jmonkeyengine.org/[how to use code blocks] before doing so.
+*  Betrachten sie <<sdk/sample_code#,Probleme beim Ausführen der Beispiele>> um Hilfe zu bekommen oder suchen sie im Wiki (Suchleiste befindet sich ganz oben auf jeder Wikiseite) oder benutzen sie die link:https://hub.jmonkeyengine.org/search?expanded=true[Forensuche].
+Wenn das nicht funktioniert, versuchen sie das link:https://hub.jmonkeyengine.org/search?expanded=true[Forum] selbst zu befragen, aber lernen sie sich zuvor https://hub.jmonkeyengine.org/t/how-to-type-code-blocks/31155[wie sie Codeblöcke benutzen].
+//or try searching the wiki (search box is at the top of every wiki page) or using the link:https://hub.jmonkeyengine.org/search?expanded=true[forum search].
+//If that doesn't work try asking on the link:https://hub.jmonkeyengine.org/search?expanded=true[forum] itself, make sure you learn https://hub.jmonkeyengine.org/[how to use code blocks] before doing so.
 
 
 
-== Documentation for Intermediate Users
+== Dokumentation für fortgeschrittene Anfänger
 
-Now that you understood the basics, let's put it all together. The following intermediate articles help you to understand how to use these concepts in context.
+//Now that you understood the basics, let's put it all together. The following intermediate articles help you to understand how to use these concepts in context.
+Jetzt, wo sie die Grundlagen verstanden haben, fügen wir alles zusammen. Die folgenden weiterführenden Beiträge helfen ihnen diese Ausführungen im Zusammenhang zu verstehen.
 
-=== jMonkeyEngine3 Concepts
+=== jMonkeyEngine3-spezifisch
 
-*  <<jme3/intermediate/best_practices#,Best Practices>>
-*  <<jme3/intermediate/simpleapplication#,SimpleApplication>>
-*  <<jme3/intermediate/appsettings#,AppSettings>>
-*  <<jme3/features#supported-formats,Supported Formats>>
-*  <<jme3/intermediate/optimization#,Optimization>>
-*  <<jme3/faq#,Frequently Asked Questions (FAQ)>>
+*  <<jme3/intermediate/best_practices#,Bewährte Praktiken>>
+*  <<jme3/intermediate/simpleapplication#,Basisapplikation>>
+*  <<jme3/intermediate/appsettings#,App Einstellungen>>
+*  <<jme3/features#supported-formats,Unterstützte Formate>>
+*  <<jme3/intermediate/optimization#,Optimierung>>
+*  <<jme3/faq#,Häufig gestellte Fragen (FAQ)>>
 
-=== Maths Concepts
+=== Mathematische Hintergründe
 
-*  <<jme3/math_for_dummies#,jME3 Math for Dummies>>
-*  <<jme3/intermediate/math#,Short 3D math &quot;cheat sheet&quot;>>
-*  <<jme3/math#,jME3 math overview>>
-*  <<jme3/rotate#,3-D Rotation>>
-*  <<jme3/math_video_tutorials#,Videos: jME3 math video tutorial series>>
+*  <<jme3/math_for_dummies#,jME3-Mathe für Dummies>>
+*  <<jme3/intermediate/math#,Kleiner 3D-Mathe &quot;Spickzettel&quot;>>
+*  <<jme3/math#,jME3-Mathe Überblick>>
+*  <<jme3/rotate#,3D-Rotation>>
+*  <<jme3/math_video_tutorials#,Videos: jME3-Mathe Video Tutorialreihe>>
 
-=== 3D Graphics Concepts
+=== 3D-Grafikerklärungen
 
-*  <<jme3/intermediate/multi-media_asset_pipeline#,Multi-Media Asset Pipeline>>
-*  <<jme3/scenegraph_for_dummies#,3D Scene Graph for Dummies>>
-**  <<jme3/beginner/hellovector#,Vector visualization &amp; vector operations>> –
-*  <<jme3/terminology#,3D Graphics Terminology>>
-*  <<jme3/intermediate/how_to_use_materials#,How to Use Materials>>
-*  <<jme3/intermediate/transparency_sorting#,Transparency Sorting>>
-*  <<jme3/external/blender#,Creating compatible models in blender>>
-*  <<jme3/external/3dsmax#,Creating compatible models in 3dsmax>>
+*  <<jme3/intermediate/multi-media_asset_pipeline#,Multimedia Asset Pipeline>>
+*  <<jme3/scenegraph_for_dummies#,3D Szenengraph für Dummies>>
+**  <<jme3/beginner/hellovector#,Vektordarstellung &amp; Vektorfunktionen>> –
+*  <<jme3/terminology#,3D-Grafikausdrücke>>
+*  <<jme3/intermediate/how_to_use_materials#,Wie man Materialien einsetzt>>
+*  <<jme3/intermediate/transparency_sorting#,Transparenzreihenfolge>>
+*  <<jme3/external/blender#,Kompatible Modelle in Blender erstellen>>
+*  <<jme3/external/3dsmax#,Kompatible Modelle in 3dsmax erstellen>>
 
-=== Game Tutorials
+=== Spiele Tutorials
 
-*  link:++https://gamedevelopment.tutsplus.com/tutorials/make-a-neon-vector-shooter-in-jmonkeyengine-the-basics--gamedev-11616++[Neon Vector Shooter tutorial on Tuts+]
+*  link:++https://gamedevelopment.tutsplus.com/tutorials/make-a-neon-vector-shooter-in-jmonkeyengine-the-basics--gamedev-11616++[Neon-Vektor-Shooter Tutorial bei Tuts+]
 
-=== Video Use Case Tutorials
+=== Anwendungsfälle Tutorialvideos
 
 [NOTE]
 ====
-These videos use alpha features only available in the next release.
+Diese Videos verwenden Alpha-Funktionen, die erst in künftigen Veröffentlichungen vorhanden sein werden.
 ====
 
-*  link:http://www.youtube.com/watch?v=-OzRZscLlHY[Video: jMonkeyEngine SDK Use Case Demo 1 (Quixote)]
-**  <<jme3/advanced/sourcecode#,Source Code>>    
-*  link:http://www.youtube.com/watch?v=6-YWxD3JByE[Video: jMonkeyEngine SDK Use Case Demo 2 (Models and Materials)]
+*  link:http://www.youtube.com/watch?v=-OzRZscLlHY[Video: jMonkeyEngine SDK Anwendungsfall Demo 1 (Quixote)]
+**  <<jme3/advanced/sourcecode#,Sourcecode>>    
+*  link:http://www.youtube.com/watch?v=6-YWxD3JByE[Video: jMonkeyEngine SDK Anwendungsfall Demo 2 (Modelle und Materialien)]
 
-Learn from sample code in link:https://github.com/jMonkeyEngine/jmonkeyengine/tree/master/jme3-examples/src/main/java/jme3test[src/main/java/jme3test] (also available in the sdk by `menu:File[New Project>JME3 Tests]`) and the example games provided by the community!
+Lernen sie von den Beispielprogrammen aus link:https://github.com/jMonkeyEngine/jmonkeyengine/tree/master/jme3-examples/src/main/java/jme3test[src/main/java/jme3test] (auch über `menu:File[New Project>JME3 Tests]` in der SDK verfügbar) und den Spielbeispielen die von der Community zur Verfügung gestellt werden!
 
 
-== Documentation for Advanced Users
+== Dokumentation für Fortgeschrittene
 
-Now that you understand the concepts, it's time to make the most of the jMonkeyEngine. Deep-dive into the +++<abbr title="Application Programming Interface">API</abbr>+++ and learn about all options, including less commonly used advanced methods. Don't over-extend yourself, developing a good game requires time and dedication. One step at a time, champ! :)
+Dadurch, dass sie jetzt die Hintergründe vestehen, ist es an der Zeit alles aus jMonkeyEngine rauszuholen.
+Lernen sie detailiert die +++<abbr title="Application Programming Interface">API</abbr>+++ und alle Möglichkeiten, auch die nicht so häufig verwendeten speziellen Methoden kennen.
+//Now that you understand the concepts, it's time to make the most of the jMonkeyEngine.
+//Deep-dive into the +++<abbr title="Application Programming Interface">API</abbr>+++ and learn about all options, including less commonly used advanced methods.
+Überanstrengen sie sich nicht, ein gutes Spiel zu entwickeln erfordert Zeit und Hingabe. Sachte, Meister! :)
+//Don't over-extend yourself, developing a good game requires time and dedication. One step at a time, champ! :)
 
-=== Controlling Game Logic
+=== Spiellogik beherrschen
 
 *  <<jme3/advanced/update_loop#,Update Loop>>
-*  <<jme3/advanced/application_states#,Application States>>
-*  <<jme3/advanced/custom_controls#,Custom Controls>>
-**  link:http://www.youtube.com/watch?v=MNDiZ9YHIpM[Video: How to control any scene node]
-***  <<jme3/advanced/sourcecode#,Source Code>>    
-**  link:http://www.youtube.com/watch?v=-OzRZscLlHY[Video: How to remote control a character in a scene]
-***  <<jme3/advanced/sourcecode#how-to-control-a-character-in-a-scene-source-code#,Source Code>>    
+*  <<jme3/advanced/application_states#,Applikationszustände>>
+*  <<jme3/advanced/custom_controls#,Eigene Steuerelemente>>
+**  link:http://www.youtube.com/watch?v=MNDiZ9YHIpM[Video: Wie sie auf jeden Szenenknoten zugreifen]
+***  <<jme3/advanced/sourcecode#,Sourcecode>>    
+**  link:http://www.youtube.com/watch?v=-OzRZscLlHY[Video: Wie sie einen Charakter in der Szene fernsteuern]
+***  <<jme3/advanced/sourcecode#how-to-control-a-character-in-a-scene-source-code#,Sourcecode>>    
 
 *  <<jme3/advanced/multithreading#,Multithreading>>
 
-=== Managing Objects in the 3D Scene Graph
+=== Objekte im 3D-Szenengraph managen
 
-*  <<jme3/advanced/traverse_scenegraph#,Traverse SceneGraph>>
-*  <<jme3/advanced/spatial#,Spatial: Node versus Geometry>>
-*  <<jme3/advanced/mesh#,Mesh>>
-**  <<jme3/advanced/shape#,Shape>>
-**  <<jme3/advanced/3d_models#,3D Models>>
-**  <<jme3/advanced/custom_meshes#,Custom Meshes>>
+*  <<jme3/advanced/traverse_scenegraph#,Szenengraph durchlaufen>>
+*  <<jme3/advanced/spatial#,Räumlich: Knoten vs. Geometrie>>
+*  <<jme3/advanced/mesh#,Netz (Mesh)>>
+**  <<jme3/advanced/shape#,Form (Shape)>>
+**  <<jme3/advanced/3d_models#,3D Modelle>>
+**  <<jme3/advanced/custom_meshes#,Eigene Netze (Meshes)>>
 
 *  <<jme3/advanced/asset_manager#,Asset Manager>>
-*  <<jme3/advanced/save_and_load#,Saving and Loading Nodes (.J3O Files)>>
-*  <<jme3/advanced/collision_and_intersection#,Collision and Intersection>>
-*  <<jme3/advanced/level_of_detail#,Level of Detail>>
+*  <<jme3/advanced/save_and_load#,Speichern und Laden von Knoten (Nodes) (.J3O Files)>>
+*  <<jme3/advanced/collision_and_intersection#,Kollision und Überschneidung>>
+*  <<jme3/advanced/level_of_detail#,Detailgrad>>
 
-=== Animations and Scenes
+=== Animationen und Szenen
 
 *  <<jme3/advanced/animation#,Animation>>
-*  <<jme3/advanced/cinematics#,Cinematics (cutscenes, fake destruction physics)>>
-*  <<jme3/advanced/motionpath#,MotionPaths and waypoints>>
-*  <<jme3/external/blender#,Creating jME3 compatible 3D models in Blender>>
-*  <<jme3/external/blender/blender_gltf#,Exporting Models as GlTF meshes from Blender>>
-*  <<jme3/external/blender/blender_ogre_export#,Exporting Models as Ogre XML meshes from Blender>>
-** <<jme3/external/blender/blender_ogre_compatibility#,OgreCompatibility>>
-*  <<jme3/advanced/makehuman_blender_ogrexml_toolchain#,MakeHuman Blender OgreXML toolchain for creating and importing animated human characters>>
-**  link:https://docs.google.com/fileview?id=0B9hhZie2D-fENDBlZDU5MzgtNzlkYi00YmQzLTliNTQtNzZhYTJhYjEzNWNk&hl=en[Scene Workflow:]
-*  link:http://www.youtube.com/watch?v=3481ueuDJwQ&feature=youtu.be[Video: Create jme3 compatible models in blender]
+*  <<jme3/advanced/cinematics#,Filmkunst (Zwischensequenzen, physikalisch vorgetäuschte Zerstörung/Beschädigung)>>
+*  <<jme3/advanced/motionpath#,Bewegungspfade und Wegpunkte>>
+*  <<jme3/external/blender#,jME3-kompatible 3D-Modelle in Blender erstellen>>
+*  <<jme3/external/blender/blender_gltf#,Modelle als GlTF-Meshes aus Blender exportieren>>
+*  <<jme3/external/blender/blender_ogre_export#,Modelle als Ogre-XML-Meshes aus Blender exportieren>>
+** <<jme3/external/blender/blender_ogre_compatibility#,OgreKompatibilität>>
+*  <<jme3/advanced/makehuman_blender_ogrexml_toolchain#,MakeHuman Blender-OgreXML-Toolchain um animierte menschliche Figuren zu erstellen und einzufügen>>
+**  link:https://docs.google.com/fileview?id=0B9hhZie2D-fENDBlZDU5MzgtNzlkYi00YmQzLTliNTQtNzZhYTJhYjEzNWNk&hl=de[Szenenworkflow:]
+*  link:http://www.youtube.com/watch?v=3481ueuDJwQ&feature=youtu.be[Video: jme3-Kompatible Modelle in Blender erstellen]
 
 
 *  CadNav icon:long-arrow-right[] Mixamo icon:long-arrow-right[] JME Workflow [Video]
-** link:https://youtu.be/jHgAgTWIers?list=PLv6qR9TGkz8RcUr-fOHI2SksWA4BAU9TS[Part1- Download Free Human 3D Model From CadNav.com]
-** link:https://youtu.be/GQJSrOpNQwI?list=PLv6qR9TGkz8RcUr-fOHI2SksWA4BAU9TS[Part 2- Rig and Animate Model in Mixamo]
-** link:https://youtu.be/JzRe2Dxbcmc?list=PLv6qR9TGkz8RcUr-fOHI2SksWA4BAU9TS[Part 3- Import Model to JME]
-** link:https://youtu.be/8wwDRDJop7k?list=PLv6qR9TGkz8RcUr-fOHI2SksWA4BAU9TS[Part 4- Play Animation (Final Result)]
+** link:https://youtu.be/jHgAgTWIers?list=PLv6qR9TGkz8RcUr-fOHI2SksWA4BAU9TS[1. Teil - Kostenloses menschliches 3d-Modell von CadNav.com herunterladen]
+** link:https://youtu.be/GQJSrOpNQwI?list=PLv6qR9TGkz8RcUr-fOHI2SksWA4BAU9TS[2. Teil - Modell in Mixamo riggen und animieren]
+** link:https://youtu.be/JzRe2Dxbcmc?list=PLv6qR9TGkz8RcUr-fOHI2SksWA4BAU9TS[3. Teil - Modell in JME importieren]
+** link:https://youtu.be/8wwDRDJop7k?list=PLv6qR9TGkz8RcUr-fOHI2SksWA4BAU9TS[4. Teil - Animation abspielen (Endergebnis)]
 
-*  <<jme3/advanced/mixamo#,Animating Blender Models With Mixamo>>
+*  <<jme3/advanced/mixamo#,Blender-Modelle mit Mixamo animieren>>
 
 
-=== Materials, Light, Shadow
+=== Materialien, Licht, Schatten
 
-*  <<jme3/intermediate/how_to_use_materials#,How to Use Materials>>
-*  <<jme3/advanced/j3m_material_files#,Creating .j3m Materials>>
-*  <<jme3/advanced/material_definitions#,How to Use Material Definitions (.j3md)>>
-*  <<jme3/advanced/materials_overview#,All Material Definition Properties>>
-*  <<jme3/advanced/anisotropic_filtering#,Anisotropic Filtering for Textures>>
-*  <<jme3/advanced/light_and_shadow#,Light and Shadow>>
-*  <<jme3/advanced/jme3_shaders#,About JME3 and Shaders>>
-*  <<jme3/advanced/jme3_shadernodes#,Shader Node System>>
-*  <<jme3/advanced/jme3_srgbpipeline#,Gamma correction or sRGB pipeline>>
-*  <<jme3/shader_video_tutorials#,Videos: jME3 introduction to shaders video tutorial series>>
-*  link:http://www.youtube.com/watch?v=IuEMUFwdheE[Video: jME3 Material with Alpha Channel]
+*  <<jme3/intermediate/how_to_use_materials#,Wie man Materialien verwendet>>
+*  <<jme3/advanced/j3m_material_files#,.j3m Materialien erzeugen>>
+*  <<jme3/advanced/material_definitions#,Wie man Materialdefinitionen (.j3md) verwendet>>
+*  <<jme3/advanced/materials_overview#,Alle Materialdefinitions-Eigenschaften>>
+*  <<jme3/advanced/anisotropic_filtering#,Anisotropische Filterung für Texturen>>
+*  <<jme3/advanced/light_and_shadow#,Licht und Schattten>>
+*  <<jme3/advanced/jme3_shaders#,Über JME3 und Shader>>
+*  <<jme3/advanced/jme3_shadernodes#,Shader-Node System>>
+*  <<jme3/advanced/jme3_srgbpipeline#,Gammakorrektur oder sRGB pipeline>>
+*  <<jme3/shader_video_tutorials#,Videos: jME3 Einführung in Shader Video Tutorialreihe>>
+*  link:http://www.youtube.com/watch?v=IuEMUFwdheE[Video: jME3 Material mit Alphakanal]
 *  Article: Physically Based Rendering (PBR)
-**  <<jme3/advanced/pbr_part1#,Physically Based Rendering – Part one>>
-**  <<jme3/advanced/pbr_part2#,Physically Based Rendering – Part two>>
-**  <<jme3/advanced/pbr_part3#,Physically Based Rendering – Part three>>
+**  <<jme3/advanced/pbr_part1#,Physically Based Rendering – erster Teil>>
+**  <<jme3/advanced/pbr_part2#,Physically Based Rendering – zweiter Teil>>
+**  <<jme3/advanced/pbr_part3#,Physically Based Rendering – dritter Teil>>
 
-=== Physics Integration
+=== Physik-Integration
 
-*  <<jme3/advanced/physics#,Physics: Gravity, Collisions, Forces>>
-*  <<jme3/advanced/bullet_multithreading#,Multi-Threaded Physics>>
-*  <<jme3/advanced/physics_listeners#,Physics Listeners and Collision Detection>>
-*  <<jme3/advanced/hinges_and_joints#,Hinges and Joints>>
-*  <<jme3/advanced/walking_character#,Walking Character>>
-*  <<jme3/advanced/ragdoll#,Ragdoll>>
-*  <<jme3/advanced/vehicles#,Vehicles>>
-*  <<jme3/advanced/softbody#,SoftBody>>
-*  <<jme3/advanced/bullet_pitfalls#,Bullet Physics Pitfalls>>
+*  <<jme3/advanced/physics#,Physik: Gravitation, Kollisionen, Kräfte>>
+*  <<jme3/advanced/bullet_multithreading#,Multithreaded Physik>>
+*  <<jme3/advanced/physics_listeners#,Physikempfänger and Kollisionserkennung>>
+*  <<jme3/advanced/hinges_and_joints#,Gelenk- und Angelverbindungen>>
+*  <<jme3/advanced/walking_character#,Gehende Person>>
+*  <<jme3/advanced/ragdoll#,Gliederpuppe>>
+*  <<jme3/advanced/vehicles#,Fahrzeuge>>
+*  <<jme3/advanced/softbody#,leicht verform/deformier-bare Objekte (Softbody)>>
+*  <<jme3/advanced/bullet_pitfalls#,Bullet-Physics Fallen>>
 //*  <<jme3/advanced/ray_and_sweep_tests#,Physics Rays and Sweep Tests>>
 *  link:http://www.youtube.com/watch?v=yS9a9o4WzL8[Video: Mesh Tool &amp; Physics Editor]
 
-=== Audio and Video
+=== Audio und Video
 
-*  <<jme3/advanced/audio#,Audio: Playing Sounds>>
+*  <<jme3/advanced/audio#,Audio: Sounds abspielen>>
 *  <<jme3/advanced/audio_environment_presets#,Audio Environment Presets>>
-*  <<jme3/advanced/video#,Video: Playing Clips>>
-*  <<jme3/advanced/screenshots#,Capture Screenshots>>
-*  <<jme3/advanced/capture_audio_video_to_a_file#,Capture Audio/Video to a File>>
+*  <<jme3/advanced/video#,Video: Clips abspielen>>
+*  <<jme3/advanced/screenshots#,Screenshots aufnehmen>>
+*  <<jme3/advanced/capture_audio_video_to_a_file#,Audio/Video in eine Datei aufnehmen>>
 
-=== Post-Processor Filters and Effects
+=== Post-Processor Filter und Effekte
 
-*  <<jme3/advanced/effects_overview#,Effects and Filters Overview>>
-*  <<jme3/advanced/bloom_and_glow#,Bloom and Glow>>
-*  <<jme3/advanced/particle_emitters#,Particle Emitters>>
+*  <<jme3/advanced/effects_overview#,Effekte und Filter Überblick>>
+*  <<jme3/advanced/bloom_and_glow#,Lichtschein und Schimmer Effekte>>
+*  <<jme3/advanced/particle_emitters#,Partikelerzeuger>>
 
-=== Landscapes
+=== Landschaften
 
-*  <<jme3/advanced/sky#,Sky>>
-*  <<jme3/advanced/terrain#,Terrain (TerraMonkey)>>
-*  <<jme3/advanced/endless_terraingrid#,Endless Terrain (TerrainGrid)>>
-*  <<jme3/advanced/terrain_collision#,Terrain Collision>>
-*  <<jme3/contributions/cubes#,Cubes - A Block World Framework>>
-*  <<jme3/advanced/water#,Simple Water>>
-*  <<jme3/advanced/post-processor_water#,Post-Processor Water (SeaMonkey)>>
-*  <<jme3/contributions/vegetationsystem#,Vegetation System>>
+*  <<jme3/advanced/sky#,Himmel>>
+*  <<jme3/advanced/terrain#,Gelände (TerraMonkey)>>
+*  <<jme3/advanced/endless_terraingrid#,Endlosgelände (TerrainGrid)>>
+*  <<jme3/advanced/terrain_collision#,Geländekollision>>
+*  <<jme3/contributions/cubes#,Cubes - Ein Block-World Framework>>
+*  <<jme3/advanced/water#,Schlichtes Gewässer>>
+*  <<jme3/advanced/post-processor_water#,Post-Processor Gewässer (SeaMonkey)>>
+*  <<jme3/contributions/vegetationsystem#,Vegetationssystem>>
 
-=== Artificial Intelligence (AI)
+=== Künstliche Intelligenz (KI)
 
-*  <<jme3/advanced/recast#,Recast Navigation>>
-*  <<jme3/advanced/building_recast#,Updating and building Recast Native Bindings>>
+*  <<jme3/advanced/recast#,Recast Navigation C++ Bibliothek>>
+*  <<jme3/advanced/building_recast#,Update und Build der Recast Native Bindung>>
 *  <<jme3/advanced/monkey_brains#,Monkey Brains>>
 *  <<jme3/advanced/steer_behaviours#,Steer Behaviours>>
-*  <<jme3/advanced/jme3_ai#,jME3 Artificial Intelligence>>
+*  <<jme3/advanced/jme3_ai#,jME3 Künstliche Intelligenz>>
 
 === Multiplayer Networking
 
@@ -251,24 +271,24 @@ Now that you understand the concepts, it's time to make the most of the jMonkeyE
 *  <<jme3/advanced/headless_server#,Headless Server>>
 *  <<jme3/advanced/monkey_zone#,Monkey Zone: Multi-Player Demo Code>>
 *  <<jme3/advanced/open_game_finder#,Open Game Finder>>
-*  <<jme3/advanced/networking_video_tutorials#,Videos: jME3 networking video tutorial series>>
+*  <<jme3/advanced/networking_video_tutorials#,Videos: jME3 Networking Video Tutorialreihe>>
 
-=== Entity Systems
+=== Entity Systeme
 
-*  <<jme3/contributions/entitysystem#, The Zay-ES Entity System>>
+*  <<jme3/contributions/entitysystem#, Das Zay-ES Entity-System>>
 
-=== Camera
+=== Kamera
 
-*  <<jme3/advanced/camera#,Camera>>
-*  <<jme3/advanced/making_the_camera_follow_a_character#,Making the Camera Follow a Character>>
-*  <<jme3/advanced/remote-controlling_the_camera#,Remote-Controlling the Camera>>
-*  <<jme3/advanced/multiple_camera_views#,Multiple Camera Views>>
+*  <<jme3/advanced/camera#,Kamera>>
+*  <<jme3/advanced/making_the_camera_follow_a_character#,Kamera einem Charakter folgen lassen>>
+*  <<jme3/advanced/remote-controlling_the_camera#,Kamera fernsteuern>>
+*  <<jme3/advanced/multiple_camera_views#,Mehrere Kameraansichten>>
 //*  <<jme3/beginner/hellochasecam#,Chase camera (aka 3rd person camera) example>>
 
-=== User Interaction
+=== Benutzerinteraktion
 
-*  <<jme3/advanced/input_handling#,Input Handling>>
-**  link:https://github.com/jMonkeyEngine-Contributions/Lemur/wiki/Modules[Lemur Scene Graph Tools]
+*  <<jme3/advanced/input_handling#,Eingabegeräteunterstützung>>
+**  link:https://github.com/jMonkeyEngine-Contributions/Lemur/wiki/Modules[Lemur Szenengraph Tools]
 ***  link:http://hub.jmonkeyengine.org/t/lemur-gems-1-inputmapper-based-camera-movement/28703[Lemur Gems #1 - Input mapper based camera movement. ]
 ***  link:http://hub.jmonkeyengine.org/t/lemur-gems-2-inputmapper-delegates/28710[Lemur Gems #2 - Input mapper delegates]
 ***  link:http://hub.jmonkeyengine.org/t/lemur-gems-3-scene-picking/28713[Lemur Gems #3 - Scene picking]
@@ -277,7 +297,7 @@ Now that you understand the concepts, it's time to make the most of the jMonkeyE
 *  <<jme3/advanced/combo_moves#,Combo Moves>>
 *  <<jme3/advanced/mouse_picking#,Mouse Picking: Click to Select>>
 
-=== Graphical User Interface
+=== Grafisches Benutzerinterface
 
 *  link:https://github.com/jMonkeyEngine-Contributions/Lemur[Lemur - a native jME3 GUI library with scene graph tools]
 *  <<jme3/contributions/tonegodgui#,tonegodGUI - a native jME3 GUI library>>
