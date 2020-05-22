@@ -299,65 +299,68 @@ Lernen sie detailiert die +++<abbr title="Application Programming Interface">API
 
 === Grafisches Benutzerinterface
 
-*  link:https://github.com/jMonkeyEngine-Contributions/Lemur[Lemur - a native jME3 GUI library with scene graph tools]
-*  <<jme3/contributions/tonegodgui#,tonegodGUI - a native jME3 GUI library>>
+*  link:https://github.com/jMonkeyEngine-Contributions/Lemur[Lemur - eine native jME3 GUI Bibliothek mit Szenengraph tools]
+*  <<jme3/contributions/tonegodgui#,tonegodGUI - eine native jME3 GUI Bibliothek>>
 *  <<jme3/advanced/nifty_gui#,Nifty GUI - JME3 Integration Tutorial>>
-*  <<jme3/advanced/nifty_gui_best_practices#,Nifty GUI - Best Practices>>
-*  <<jme3/advanced/nifty_gui_scenarios#,Nifty GUI Scenarios (Load Screen etc)>>
+*  <<jme3/advanced/nifty_gui_best_practices#,Nifty GUI - Bewährte Techniken>>
+*  <<jme3/advanced/nifty_gui_scenarios#,Nifty GUI Szenarios (Screen laden, usw.)>>
 *  <<jme3/advanced/hud#,Head-Up Display (HUD)>>
-*  <<jme3/advanced/localization#,Localization>>
+*  <<jme3/advanced/localization#,Lokalisation>>
 *  <<jme3/advanced/swing_canvas#,Swing Canvas>>
 
-=== Custom Rendering
+=== Eigenes Rendering
 
 //*  <<jme3/advanced/jme3_forwardrendering#,Forward Rendering process>>
 *  <<jme3/advanced/jme3_renderbuckets#,Render Buckets>>
 
-=== Custom Tools
+=== Eigene Tools
 
 *  <<jme3/tools/navigation#,Mercator Projection Tool (Marine Navigation)>>
-*  <<jme3/tools/charts#,Visualizing Maps in JME3 (Marine Charts)>>
+*  <<jme3/tools/charts#,Map-Darstellung in JME3 (Marine Charts)>>
 
-=== Logging and Debugging
+=== Log- und Debuggen
 
 *  <<jme3/advanced/logging#,Logging>>
 *  <<sdk/log_files#,Log Files>>
-*  <<jme3/advanced/read_graphic_card_capabilites#,Read Graphic Card Capabilites>>
-*  <<jme3/advanced/debugging#,Debugging with Wireframes>>
+*  <<jme3/advanced/read_graphic_card_capabilites#,Grafikkarten Features auslesen>>
+*  <<jme3/advanced/debugging#,Debuggen mit Wireframes>>
 
-=== Android specific development
+=== Android Entwicklung
 
-*  <<jme3/advanced/android#,Android Project Cheat Sheet>>
+*  <<jme3/advanced/android#,Android Projekt - Spickzettel>>
 
 === Deployment
 
 *  <<jme3/android#,Android>>
-*  <<sdk/application_deployment#,Application Deployment (using jMonkeyEngine SDK)>>
-*  <<jme3/webstart#,WebStart Deployment (without jMonkeyEngine SDK)>>
-*  <<jme3/ios#,How to build for iOS and publish to Apple App Store>>
+*  <<sdk/application_deployment#,Application Deployment (mit jMonkeyEngine SDK)>>
+*  <<jme3/webstart#,WebStart Deployment (ohne jMonkeyEngine SDK)>>
+*  <<jme3/ios#,Wie man für iOS entwickelt und im Appstore veröffentlicht>>
 
-=== Virtual Reality &amp; Simulation
+=== Virtuelle Realität &amp; Simulation
 
-*  <<jme3/virtualreality#, Virtual Reality. OpenCV &amp; JavaCV>>
+*  <<jme3/virtualreality#, Virtuelle Realität. OpenCV &amp; JavaCV>>
 
-=== jMonkey User Contributions
+=== Beiträge von jMonkey Usern
 
-*  <<jme3/contributions#, Contributions - User made utilities to add functionality to the engine.>>
+*  <<jme3/contributions#, Contributions - Von anderen Benutzern zur Verfügung gestellte erweiterte Funktionen.>>
 
-=== Sample Projects
+=== Beispielprojekte
 
-*  <<sdk/sample_code#,JmeTests>> – The "`official`" sample project JmeTests.
-*  link:http://code.google.com/p/jmonkeyengine/source/browse/BookSamples/#BookSamples%2Fsrc[BookSamples] – Some more jME3 code samples
+*  <<sdk/sample_code#,JmeTests>> – Das "`offizielle`" Beispielprojekt JmeTests.
+*  link:http://code.google.com/p/jmonkeyengine/source/browse/BookSamples/#BookSamples%2Fsrc[BookSamples] – Weitere jME3 Codebeispiele
 
-These code examples are not supported by the core team and we cannot guarantee their correctness:
+//These code examples are not supported by the core team and we cannot guarantee their correctness:
+Folgende Codebeispiele werden weder unterstützt noch Korrektheit gewährleistet vom Core Team:
 
-*  <<jme3/shaderblow_project#,ShaderBlow Project>> – The jME3 users shaders project.
-*  <<jme3/rise_of_mutants_project#,Rise of Mutants Project>> – Rise of Mutants Project by BigBoots Team.
+*  <<jme3/shaderblow_project#,ShaderBlow Projekt>> – Das jME3-User Shader Project.
+*  <<jme3/rise_of_mutants_project#,Rise of Mutants Projekt>> – "Aufstieg der Mutanten" Projekt vom BigBoots Team.
 
 
 == Feedback
 
-jME3 is in development; if a tutorial doesn't work as expected, try using the latest daily build. If that doesn't "`fix`" it then:
+jME3 steht unter Entwicklung; Wenn ein Tutorial nicht erwartungsgemäß läuft, versuchen sie den letzten nightly build.
+Wenn das auch nichts hilft, dann:
+//if a tutorial doesn't work as expected, try using the latest daily build. If that doesn't "`fix`" it then:
 
-*  <<report_bugs#,Report bugs or issues>>
-*  link:https://hub.jmonkeyengine.org/[Ask (and Answer!) Questions on the Forum]
+*  <<report_bugs#,Melden sie Fehler oder Probleme>>
+*  link:https://hub.jmonkeyengine.org/[Fragen (und beantworten sie Fragen!) im Forum]
