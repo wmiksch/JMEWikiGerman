@@ -1,7 +1,7 @@
 = jMonkeyEngine Dokumentation
-:author:
+:author: @author@
 :revnumber:
-:revdate: 2020/05/22 17:58
+:revdate: @timestamp@
 :experimental:
 :keywords: documentation, sdk, install
 :link-javadoc: https://javadoc.jmonkeyengine.org

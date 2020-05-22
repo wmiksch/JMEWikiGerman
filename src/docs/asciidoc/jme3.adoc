@@ -1,7 +1,7 @@
 = jMonkeyEngine Tutorials und Dokumentation
-:author: Wolfram Miksch
+:author: @author <email>@
 :revnumber:
-:revdate: 2020/05/20 13:12
+:revdate: @timestamp@
 :keywords: documentation, intro, intermediate, about
 :experimental:
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
