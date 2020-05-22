@@ -17,7 +17,7 @@ TIP: Das ist ein Warnhinweis. Es wird an verschiedenen Stellen solche im Wiki ge
 *  <<jme3/features#,Features>>
 *  link:https://github.com/jMonkeyEngine/sdk#jmonkeyengine-software-development-kit-sdk-[Download jMonkeyEngine 3 SDK]
 
-== SDK Documentation
+== SDK Dokumentation
 
 [.right]
 image::sdk/jmonkeyplatform-docu-2.png[jmonkeyplatform-docu-2.png,width="420",height="300"]

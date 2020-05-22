@@ -1,7 +1,7 @@
-= jMonkeyEngine Documentation
+= jMonkeyEngine Dokumentation
 :author:
 :revnumber:
-:revdate: 2016/03/17 20:48
+:revdate: 2020/05/22 17:58
 :experimental:
 :keywords: documentation, sdk, install
 :link-javadoc: https://javadoc.jmonkeyengine.org
@@ -22,7 +22,7 @@ The link:http://hub.jmonkeyengine.org/[forum] is your first stop when reporting 
 .  link:https://hub.jmonkeyengine.org/t/uploading-pictures-and-changing-avatars-is-disabled/39520[Uploading pictures is disabled] with the exception of a 50k disk space allowance for a forum avatar.
 
 
-== Install
+== Installation
 
 *Before installing, check the <<bsd_license#,license>>, <<jme3/features#,features>>, and <<jme3/requirements#,requirements>>.* Then choose one of these options:
 [cols="4", options="header"]

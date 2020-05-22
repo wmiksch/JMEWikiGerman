@@ -28,6 +28,7 @@ asciidoctor {
 		'linkcss': 'true',
 		//'imagesdir':'/images',
 		'toc':'left',
+		'toc-title':'Inhaltsverzeichnis',
 		'icons': 'font',
 		'setanchors':'true',
 		'idprefix':'',
