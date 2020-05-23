@@ -1,30 +1,43 @@
 = jMonkeyEngine Dokumentation
-:author: @author@
+:author:
 :revnumber:
-:revdate: @timestamp@
+:revdate: Mai 2020
 :experimental:
 :keywords: documentation, sdk, install
 :link-javadoc: https://javadoc.jmonkeyengine.org
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
 
-This documentation wiki contains installation and configuration guides, jME coding tutorials and other information that will help you get your game project going. You can search the contents of this wiki using the "`Wiki`" menu search box at the top of each page.
+//This documentation wiki contains installation and configuration guides,
+Diese Doku liefert eine Anleitung für die Installation und Konfiguration, jME Programmiertutorials und andere Information die ihnen helfen werden ihr Gaming-projekt zum laufen zu bringen.
+//jME coding tutorials and other information that will help you get your game project going.
+Sie können die Suchfunktion am oberen Ende jeder Wikiseite benutzen um das gesamte Wiki zu durchforsten.
+//You can search the contents of this wiki using the "`Wiki`" menu search box at the top of each page.
 
-You are also very welcome to fix mistakes or spelling as well as unclear paragraphs using the "`Wiki`" menu "`Edit`" icon:pencil-square[role="blue"] and "`Add`" icon:plus-square[role="blue"] buttons. You have to be logged into GitHub to edit the wiki. You can learn more about editing and contributing under the <<documentation#contribute#,Contribute>> heading.
+Sie sind auch dazu angehalten Verbesserungsvorschläge bei dieser Übersetzung des "'Wikis'" mit dem Menü "'Edit'"  icon:pencil-square[role="blue"] und "`Add`" icon:plus-square[role="blue"] zu geben. Sie müssen in GitHub eingeloggt sein um das wiki zu bearbeiten.
+//You are also very welcome to fix mistakes or spelling as well as unclear paragraphs using the "`Wiki`" menu "`Edit`" icon:pencil-square[role="blue"] and "`Add`" icon:plus-square[role="blue"] buttons. You have to be logged into GitHub to edit the wiki.
+Hier können sie mehr über das Editieren und <<documentation#contribute#,Beitragen>> erfahren.
+//You can learn more about editing and contributing under the <<documentation#contribute#,Contribute>> heading.
 
-TIP: This is an Admonition. You will see many of these scattered throughout the Wiki. See the <<wiki/admonitions#,Admonition Definitions>> for the meaning of this and all the other Admonitions.
+//TIP: This is an Admonition. You will see many of these scattered throughout the Wiki. See the <<wiki/admonitions#,Admonition Definitions>> for the meaning of this and all the other Admonitions.
+TIP: Das ist ein Warnhinweis. Es wird an verschiedenen Stellen solche im Wiki geben. Unter <<wiki/admonitions#,Warnhinweise>> finden sie die Bedeutung dieser.
 
 == Forum
 
-The link:http://hub.jmonkeyengine.org/[forum] is your first stop when reporting bugs, making contributions, discussing wiki content, or anything else that you can't get the answer for by reading the wiki or searching the forum archives. You will find it to be a friendly and inviting place to have discussions, but before posting, there are two minor rules you will need to observe.
+Das link:http://hub.jmonkeyengine.org/[Forum] ist die erste Anlaufstelle um Fehler zu melden, Beiträge zu leisten, den Wiki Inhalt zu diskutieren
+//The link:http://hub.jmonkeyengine.org/[forum] is your first stop when reporting bugs, making contributions, discussing wiki content,
+oder auch sonst, wenn sie die Antworten auf ihre Fragen im Wiki und den Forenarchiv nicht finden.
+//or anything else that you can't get the answer for by reading the wiki or searching the forum archives.
+Sie werden dort eine freundliche und einladende Atmosphäre vorfinden, aber bevor sie posten beachten sie die folgenden 2 Regeln.
+//You will find it to be a friendly and inviting place to have discussions, but before posting, there are two minor rules you will need to observe.
 
-.  For questions that include code, learn link:https://hub.jmonkeyengine.org/t/how-to-type-code-blocks/31155[how to use code blocks]. If you fail to do so, you will at best be reminded of your lapse in judgment and may not receive an answer to your question at all otherwise. See the <<github_tips#,Github Tips>> page for info on how to insert links into your posts.
-.  link:https://hub.jmonkeyengine.org/t/uploading-pictures-and-changing-avatars-is-disabled/39520[Uploading pictures is disabled] with the exception of a 50k disk space allowance for a forum avatar.
+.  Für Fragen die Quelltext beinhalten, lernen sie link:https://hub.jmonkeyengine.org/t/how-to-type-code-blocks/31155[wie man Programmblöcke einfügt]. Sie werden sonst statt einer Anwort höchstens eine Rüge erhalten. In den <<github_tips#,Github Tipps>> steht wie sie Links in ihre Beiträge einfügen können.
+.  link:https://hub.jmonkeyengine.org/t/uploading-pictures-and-changing-avatars-is-disabled/39520[Hochladen von Bildern ist gesperrt] mit der Ausnahme eines 50k großen Forum-Avatars.
 
 
 == Installation
 
-*Before installing, check the <<bsd_license#,license>>, <<jme3/features#,features>>, and <<jme3/requirements#,requirements>>.* Then choose one of these options:
+*Vor der Installation überprüfen sie die <<bsd_license#,Lizenz>>, <<jme3/features#,Features>> und <<jme3/requirements#,Voraussetzungen>>.* Dann wählen sie eine der folgenden Optionen:
 [cols="4", options="header"]
 |===
 
@@ -68,17 +81,17 @@ a|
 pass:[*] The SDK creates Ant-based projects that any Java IDE can import. We recommend users of other IDEs to also download the jMonkeyEngine SDK and choose `menu:File[Import Project > External Project Assets]` to create a codeless project for managing assets only. This way you can code in the IDE of your choice, and use the SDK to convert your models to .j3o format.
 
 
-== Create
+== Entwerfen
 
-After downloading and installing, <<jme3#,bookmark the jME Documentation page>> and start writing your first game!
+Nach Download und Installation, <<jme3#,erstellen sie ein Lesezeichen zur jME Doku>> und beginne ihr erstes Spiel zu schreiben!
 [cols="3", options="header"]
 |===
 
 a| Tutorials
 a| jMonkeyEngine SDK
-a| Other Documentation
+a| Sonstige Dokumentation
 
-a| <<jme3#tutorials-for-beginners,jME3 beginner tutorials>>
+a| <<jme3#Tutorials-für-Anfänger,jME3 Anfängertutorials>>
 a| <<sdk#,jMonkeyEngine SDK Documentation and Video Tutorials>>
 a| link:{link-javadoc}[Full API JavaDoc]
 
@@ -93,9 +106,10 @@ a| <<jme3/faq#,Answers to Frequently Asked Questions>>
 |===
 
 
-== Contribute
+== Sich einbringen
 
-Are you an experienced Java developer who wants to add new features or contribute patches to the jME3 project?
+//Are you an experienced Java developer who wants to add new features or contribute patches to the jME3 project?
+Sind sie ein erfahrener Java-Entwickler und möchten weitere Features oder Patches dem jME3 Projekt hinzufügen?
 
 *  Get inspired by existing <<jme3/contributions#,contributions>>
 *  link:https://github.com/jMonkeyEngine/jmonkeyengine/blob/master/CONTRIBUTING.md[How to contribute to jMonkeyEngine]
@@ -105,7 +119,7 @@ Are you an experienced Java developer who wants to add new features or contribut
 *  <<report_bugs#,Report bugs and submit patches>>
 * link:https://jmonkeystore.com/[Find assets on the community supported jMonkeyStore]
 
-== Contact
+== Kontakt
 
 You are welcome to contribute and inquire about the project: Please contact the link:https://hub.jmonkeyengine.org/badges/103/core-developer[developers] or ask on the link:http://hub.jmonkeyengine.org/[forums].
 
@@ -115,7 +129,7 @@ You are welcome to contribute and inquire about the project: Please contact the 
 *  <<report_bugs#,Report a bug>>
 *  link:http://hub.jmonkeyengine.org/c/documentation-jme3[Report unclear or missing documentation]
 
-== Languages
+== Sprachen
 
 The team is looking for other monkeys that would be interested in a wiki translation of [insert your favorite language here]. If you're interested in hosting translations see <<wiki\wiki_translation.adoc#,Wiki Translation Repositories>>.
 

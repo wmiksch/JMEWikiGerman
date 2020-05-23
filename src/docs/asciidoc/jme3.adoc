@@ -1,13 +1,13 @@
 = jMonkeyEngine Tutorials und Dokumentation
-:author: @author <email>@
+:author:
 :revnumber:
-:revdate: @timestamp@
+:revdate: Mai 2020
 :keywords: documentation, intro, intermediate, about
 :experimental:
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
 
-TIP: Das ist ein Warnhinweis. Es wird an verschiedenen Stellen solche im Wiki geben. Unter <<wiki/admonitions#,Warnhinweise>> findest du die Bedeutung dieser.
+TIP: Das ist ein Warnhinweis. Es wird an verschiedenen Stellen solche im Wiki geben. Unter <<wiki/admonitions#,Warnhinweise>> finden sie die Bedeutung dieser.
 
 
 == Installation
@@ -84,7 +84,7 @@ image::jme3/beginner/beginner-physics.png[beginner-physics.png,width="360",heigh
 ..  <<jme3/beginner/hello_effects#,Hello Effects>> – Partikeleffekte, wie Feuer, Explosionen, Glimmer
 ..  <<jme3/beginner/hello_physics#,Hello Physics>> – Springende Bälle und fallende Klötze
 
-*  Betrachten sie <<sdk/sample_code#,Probleme beim Ausführen der Beispiele>> um Hilfe zu bekommen oder suchen sie im Wiki (Suchleiste befindet sich ganz oben auf jeder Wikiseite) oder benutzen sie die link:https://hub.jmonkeyengine.org/search?expanded=true[Forensuche].
+*  Hilfe, wenn die <<sdk/sample_code#,Beispiele nicht funktionieren>> oder suchen sie im Wiki (Suchleiste befindet sich ganz oben auf jeder Wikiseite) oder benutzen sie die link:https://hub.jmonkeyengine.org/search?expanded=true[Forensuche].
 Wenn das nicht funktioniert, versuchen sie das link:https://hub.jmonkeyengine.org/search?expanded=true[Forum] selbst zu befragen, aber lernen sie sich zuvor https://hub.jmonkeyengine.org/t/how-to-type-code-blocks/31155[wie sie Codeblöcke benutzen].
 //or try searching the wiki (search box is at the top of every wiki page) or using the link:https://hub.jmonkeyengine.org/search?expanded=true[forum search].
 //If that doesn't work try asking on the link:https://hub.jmonkeyengine.org/search?expanded=true[forum] itself, make sure you learn https://hub.jmonkeyengine.org/[how to use code blocks] before doing so.
