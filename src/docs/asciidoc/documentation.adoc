@@ -1,6 +1,4 @@
 = jMonkeyEngine Dokumentation
-:author:
-:revnumber:
 :revdate: Mai 2020
 :experimental:
 :keywords: documentation, sdk, install
@@ -42,48 +40,48 @@ Sie werden dort eine freundliche und einladende Atmosphäre vorfinden, aber bevo
 |===
 
 a|
-<a| Recommended
+<a| Empfohlen
 <a| Optional
 <a| Optional
 
-a| You want to…
-a| Get started with jMonkeyEngine
-a| Use jMonkeyEngine in another IDE
-a| Build custom engine from sources
+a| Sie möchten…
+a| Eintauchen in die jMonkeyEngine
+a| jMonkeyEngine mit einer anderen IDE verwenden
+a| Eigene Engine aus dem Sourcecode erstellen
 
-a| Then download…
+a| Dann laden sie…
 a| link:https://github.com/jMonkeyEngine/sdk/releases[jMonkeyEngine SDK]
 a| link:https://github.com/jMonkeyEngine/jmonkeyengine/releases[Binaries]
 a| link:https://github.com/jMonkeyEngine/jmonkeyengine[Engine Sources]
 
-a| You receive…
+a| Sie erhalten…
 a| SDK, binaries, javadoc, sources
 a| Binaries, javadoc, sources
 a| Sources
 
-a| Learn more here…
+a| Mehr erfahren hier…
 a|
-* <<sdk#,Using the SDK>>
-* <<sdk/project_creation#,Project Creation>>
+* <<sdk#,SDK anwenden>>
+* <<sdk/project_creation#,Projekt erstellen>>
 a|
-* <<jme3/maven#,Setting up jME3 with Maven and Gradle compatible IDEs>>
-* <<jme3/setting_up_netbeans_and_jme3#,Setting up JME3 in the NetBeans IDE>>
-* <<jme3/setting_up_jme3_in_eclipse#,Setting up JME3 in the Eclipse IDE>>
+* <<jme3/maven#,jME3 mit Maven und Gradle kompatiblen IDEs aufsetzen>>
+* <<jme3/setting_up_netbeans_and_jme3#,jME3 in der NetBeans IDE aufsetzen>>
+* <<jme3/setting_up_jme3_in_eclipse#,jME3 in der Eclipse IDE aufsetzen>>
 a|
-* <<jme3/build_from_sources#,Building JME3 from the Sources>>
-* <<jme3/build_jme3_sources_with_netbeans#,Building JME3 from the sources with NetBeans>>
-* <<jme3/simpleapplication_from_the_commandline#,Setting up JME3 on the commandline>>
+* <<jme3/build_from_sources#,jME3 aus den Sourcen erstellen>>
+* <<jme3/build_jme3_sources_with_netbeans#,JME3 aus den Sourcen mit NetBeans erstellen>>
+* <<jme3/simpleapplication_from_the_commandline#,JME3 an der Konsole anwenden>>
 
-4+^a| <<jme3/jme3_source_structure#,Learn about the source structure>>
+4+^a| <<jme3/jme3_source_structure#,Ein paar Worte über die Quelltextstruktur>>
 
 |===
 
-pass:[*] The SDK creates Ant-based projects that any Java IDE can import. We recommend users of other IDEs to also download the jMonkeyEngine SDK and choose `menu:File[Import Project > External Project Assets]` to create a codeless project for managing assets only. This way you can code in the IDE of your choice, and use the SDK to convert your models to .j3o format.
+pass:[*] Die SDK erzeugt Ant-basierte Projekte die in jede Java IDE importiert werden können. Wir empfehlen Usern anderer IDEs zusätzlich die jMonkeyEngine SDK herunterzuladen und durch `menu:File[Import Project > External Project Assets]` ein Quellcodeloses Projekt nur für das Handling der Assets zu erstellen. Dadurch können sie in der IDE ihrer Wahl programmieren und die SDK zum konvertieren der Modelle ins .j3o format verwenden.
 
 
 == Entwerfen
 
-Nach Download und Installation, <<jme3#,erstellen sie ein Lesezeichen zur jME Doku>> und beginne ihr erstes Spiel zu schreiben!
+Nach Download und Installation, <<jme3#,erstellen sie ein Lesezeichen zur jME Doku>> und beginnen ihr erstes Spiel zu schreiben!
 [cols="3", options="header"]
 |===
 
@@ -91,17 +89,17 @@ a| Tutorials
 a| jMonkeyEngine SDK
 a| Sonstige Dokumentation
 
-a| <<jme3#Tutorials-für-Anfänger,jME3 Anfängertutorials>>
-a| <<sdk#,jMonkeyEngine SDK Documentation and Video Tutorials>>
-a| link:{link-javadoc}[Full API JavaDoc]
+a| <<jme3#tutorials-für-anfänger,jME3 Anfängertutorials>>
+a| <<sdk#,jMonkeyEngine SDK Dokumentation und Video Tutorials>>
+a| link:{link-javadoc}[Gesamte API JavaDoc]
 
-a| <<jme3#documentation-for-intermediate-users,jME3 intermediate articles>>
-a| <<sdk/comic#,jMonkeyEngine SDK - the Comic :-)>>
-a| <<jme3/external/blender#,Blender Modeling Guide>>
+a| <<jme3#documentation-für-fortgeschrittene-anfänger,jME3 weiterführende Artikel>>
+a| <<sdk/comic#,jMonkeyEngine SDK - Comic>>
+a| <<jme3/external/blender#,Anleitung zur Modellierung in Blender>>
 
-a| <<jme3#documentation-for-advanced-users,jME3 advanced documentation>>
+a| <<jme3#dokumentation-für-fortgeschrittene,jME3 fortgeschrittene Dockmentation>>
 <a|
-a| <<jme3/faq#,Answers to Frequently Asked Questions>>
+a| <<jme3/faq#,Häufig gestellte Fragen (FAQ)>>
 
 |===
 
@@ -109,28 +107,31 @@ a| <<jme3/faq#,Answers to Frequently Asked Questions>>
 == Sich einbringen
 
 //Are you an experienced Java developer who wants to add new features or contribute patches to the jME3 project?
-Sind sie ein erfahrener Java-Entwickler und möchten weitere Features oder Patches dem jME3 Projekt hinzufügen?
+Sind sie ein erfahrener Java-Entwickler und möchten dem jME3 Projekt weitere Features oder Patches hinzufügen?
 
-*  Get inspired by existing <<jme3/contributions#,contributions>>
-*  link:https://github.com/jMonkeyEngine/jmonkeyengine/blob/master/CONTRIBUTING.md[How to contribute to jMonkeyEngine]
-*  link:https://github.com/jMonkeyEngine/wiki#jmonkeyengine-documentation[Become a Wiki Editor]
-*  link:http://hub.jmonkeyengine.org/c/contribution-depot-jme3[Chime in on the Contributors Forum]
-*  <<sdk#development,Write jMonkeyEngine SDK plugins and visual editors>>
-*  <<report_bugs#,Report bugs and submit patches>>
-* link:https://jmonkeystore.com/[Find assets on the community supported jMonkeyStore]
+*  Inpiration bisheriger <<jme3/contributions#,Beiträge>>
+*  link:https://github.com/jMonkeyEngine/jmonkeyengine/blob/master/CONTRIBUTING.md[Wie man sich bei jMonkeyEngine einbringt]
+*  link:https://github.com/jMonkeyEngine/wiki#jmonkeyengine-documentation[Werden sie ein Wiki-Schreiber]
+*  link:http://hub.jmonkeyengine.org/c/contribution-depot-jme3[Machen sie ihren Beitrag im Forum bekannt]
+*  <<sdk#development,Entwickeln sie Plugins und visuelle Editoren für die jMonkeyEngine>>
+*  <<report_bugs#,Fehler melden und Patches übermitteln>>
+* link:https://jmonkeystore.com/[Assets finden sie im Community-betreuten jMonkeyStore]
 
 == Kontakt
 
-You are welcome to contribute and inquire about the project: Please contact the link:https://hub.jmonkeyengine.org/badges/103/core-developer[developers] or ask on the link:http://hub.jmonkeyengine.org/[forums].
+Sie sind eingeladen sich zu beteiligen und genauer über das Projekt zu informieren: Kontaktieren sie die link:https://hub.jmonkeyengine.org/badges/103/core-developer[Entwickler] oder fragen in den link:http://hub.jmonkeyengine.org/[Foren].
 
-*  link:https://hub.jmonkeyengine.org/badges/103/core-developer[Contact the jME team]
-**  <<team#,[Core team - Who are we?]>>
+*  link:https://hub.jmonkeyengine.org/badges/103/core-developer[Melden sie sich beim jME Team]
+**  <<team#,[Das Core Team - Wer wir sind?]>>
 
-*  <<report_bugs#,Report a bug>>
-*  link:http://hub.jmonkeyengine.org/c/documentation-jme3[Report unclear or missing documentation]
+*  <<report_bugs#,Fehler melden>>
+*  link:http://hub.jmonkeyengine.org/c/documentation-jme3[Melden sie unklare oder fehlende Dokumentation]
 
 == Sprachen
 
-The team is looking for other monkeys that would be interested in a wiki translation of [insert your favorite language here]. If you're interested in hosting translations see <<wiki\wiki_translation.adoc#,Wiki Translation Repositories>>.
+//The team is looking for other monkeys that would be interested in a wiki translation of [insert your favorite language here].
+Wir suchen andere Monkeys die das Wiki in [wählen sie eine Sprache ] übersetzen wollen.
+//If you're interested in hosting translations see <<wiki\wiki_translation.adoc#,Wiki Translation Repositories>>.
+Wenn sie interessiert sind und eine Übersetzung hosten wollen, lesen sie <<wiki\wiki_translation.adoc#,Wiki Übersetzungsrepositories>>
 
 link:http://www.jmecn.net/wiki/[简体中文]
