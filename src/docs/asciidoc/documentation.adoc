@@ -35,7 +35,7 @@ Sie werden dort eine freundliche und einladende Atmosphäre vorfinden, aber bevo
 
 == Installation
 
-*Vor der Installation überprüfen sie die <<bsd_license#,Lizenz>>, <<jme3/features#,Features>> und <<jme3/requirements#,Voraussetzungen>>.* Dann wählen sie eine der folgenden Optionen:
+*Vor der Installation überprüfen sie die <<bsd_license#,Lizenz>>, <<jme3/features#,Features>> und <<jme3/requirements#,Anforderungen>>.* Dann wählen sie eine der folgenden Optionen:
 [cols="4", options="header"]
 |===
 

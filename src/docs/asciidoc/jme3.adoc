@@ -1,6 +1,4 @@
 = jMonkeyEngine Tutorials und Dokumentation
-:author:
-:revnumber:
 :revdate: Mai 2020
 :keywords: documentation, intro, intermediate, about
 :experimental:
