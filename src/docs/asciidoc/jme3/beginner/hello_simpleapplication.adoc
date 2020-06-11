@@ -1,7 +1,7 @@
 = jMonkeyEngine 3 Tutorial (1) - Hello SimpleApplication
 :author:
 :revnumber:
-:revdate: 2016/03/17 20:48
+:revdate: Juni 2020
 :keywords: beginner, intro, documentation, init, simpleapplication, basegame
 :relfileprefix: ../../
 :imagesdir: ../..
@@ -9,60 +9,60 @@
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
 
-Previous: <<jme3#installing_jmonkeyengine_3,Installing JME3>>,
-Next: <<jme3/beginner/hello_node#,Hello Node>>
+Voriges: <<jme3#installing_jmonkeyengine_3,JME3 installieren>>,
+Nächstes: <<jme3/beginner/hello_node#,Hello Node>>
 
-*Prerequisites:* This tutorial assumes that you have <<documentation#,downloaded the jMonkeyEngine SDK>>.
-
-In this tutorial series, we assume that you use the jMonkeyEngine <<sdk#,SDK>>. As an intermediate or advanced Java developer, you will quickly see that, in general, you can develop jMonkeyEngine code in any integrated development environment (NetBeans IDE, Eclipse, IntelliJ) or even from the <<jme3/simpleapplication_from_the_commandline#,command line>>.
-
-OK, let's get ready to create our first jMonkeyEngine3 application.
+*Vorraussetzungen:* Dieses Tutorial geht davon aus, dass sie <<documentation#,die jMonkeyEngine SDK heruntergeladen>> haben.
 
 
-== Create a project
+In dieser Tutoralreihe gehen wir davon aus, dass sie die jMonkeyEngine <<sdk#,SDK>> benutzen. Als erfahrener Javaprogrammierer, werden sie schnell merken, dass sie jMonkeyEngine in jeder beliebigen IDE (NetBeans, Ecliplse, IntelliJ) oder sogar auf der <<jme3/simpleapplication_from_the_commandline#,Kommandozeile>> verwenden können.
 
-In the jMonkeyEngine SDK:
+Ok, starten wir mit der ersten jMonkeyEngine3 Applikation.
 
-.  Choose `menu:File[New Project]` from the main menu.
-.  In the New Project wizard, select the template `menu:JME3[Basic Game]`.
-.  Click btn:[Next].
-..  Specify a project name, e.g. "`HelloWorldTutorial`".
-..  Specify a path where to store your new project, e.g. a `jMonkeyProjects` directory in your home directory.
-.  Click btn:[Finish].
 
-This will create a basic jme3 application for an easy start with jme3. You can click the run button to run it: You will see a blue cube.
-If you have questions, read more about <<sdk/project_creation#,Project Creation>> here.
+== Projekt erstellen
+
+In der jMonkeyEngine SDK:
+
+.  Wählen sie `menu:File[New Project]` aus dem Hauptmenü.
+.  Im New Project Wizard, nehmen sie das Template `menu:JME3[Basic Game]` aus der Kategorie JME3.
+.  Klicken sie btn:[Next].
+..  Wählen sie einen project name, z.B. "`HelloWorldTutorial`".
+..  Wählen sie einen Pfad wo sie ihr Projekt speichern wollen, z.B. `jMonkeyProjects` in ihrem Home Directory.
+.  Klicken sie btn:[Finish].
+
+Dies erstellt eine jme3 Basisapplikation mit einem blauen Würfel wenn sie auf `run` klicken. Für weitere Fragen lesen sie mehr zur <<sdk/project_creation#,Erstellung von Projekten>>.
 
 
 [TIP]
 ====
-We recommend to go through the steps yourself, as described in the tutorials. Alternatively, you can create a project based on the <<sdk/sample_code#,JmeTests>> template in the jMonkeyEngine SDK. It will create a project that already contains the `jme3test.helloworld` samples (and many others). For example, you can use the JmeTests project to verify whether you got the solution right.
+Wir empfehlen die Schritte in den Tutorials nacheinander durchzuführen. Allerdings können sie ein Projekt auf Basis des <<sdk/sample_code#,JmeTests>> Template erstellen und so z.B. ihr Ergebnis mit der richtigen Variante vergleichen, da darin unter anderem auch das `jme3test.helloworld` Beispiel enthalten ist.
 ====
 
 
 
-== Extend SimpleApplication
+== SimpleApplication erweitern
 
-For this tutorial, you need a jme3test.helloworld package in your project, with the file HelloJME3.java in it.
+Für dieses Tutorial benötigen sie ein jme3test.helloworld package mit der Datei HelloJME3.java in ihrem Projekt.
 
-In the jMonkeyEngine SDK:
+In der jMonkeyEngine SDK:
 
-.  In the `Source Packages` node of your project, btn:[RMB] select the "`mygame`" package.
-..  Choose: `menu:Refactor[Rename]`
-..  Enter the New Name: `jme3test.helloworld`
-..  Click btn:[Refactor] when ready.
-.  In the newly refactored package, btn:[RMB] select the `Main.java` class.
-..   Choose: `menu:Refactor[Rename]`
-..  Enter the New Name: `HelloJME3`
-..  Click btn:[Refactor] when ready.
+.  btn:[RMB]klicken sie das "`mygame`" package im `Source Packages` Knoten der Projektansicht.
+..  Wählen sie: `menu:Refactor[Rename]`
+..  Geben sie den neuen Namen `jme3test.helloworld` ein
+..  Klicken sie btn:[Refactor] wenn sie fertig sind.
+.  Im nun refactored package, btn:[RMB]klicken sie die `Main.java` Klasse.
+..   Wählen sie: `menu:Refactor[Rename]`
+..  Und geben den Namen `HelloJME3` ein
+..  Klicken sie btn:[Refactor] wenn sie fertig sind.
 
-You follow this same basic procedure for the remaining tutorials.
+Diese Vorgehensweise wenden sie bei allen weiteren Tutorials an.
 
-TIP: The remaining tutorials all use the same `jme3test.helloworld` package. Just refactor the "`Main.java`" class name to the tutorial examples class name rather than creating a new project for each.
+TIP: Alle weiteren Tutorials werden im `jme3test.helloworld` package untergebracht. Refactor-Renamen sie einfach den "`Main.java`" in den Tutorialbeispiel-Klassennamen anstelle für jede ein neues Projekt anzulegen.
 
-== Code Sample
+== Codebeispiel
 
-Replace the contents of the HelloJME3.java file with the following code.
+Ersetzen sie den Inhalt von HelloJME3.java mit folgendem Code.
 
 [source,java]
 ----
