@@ -2,42 +2,42 @@
 
 image:https://travis-ci.org/wmiksch/JMEWikiGerman.svg?branch=master["Build Status", link="https://travis-ci.org/wmiksch/JMEWikiGerman"]
 
-= jMonkeyEngine Documentation
+= jMonkeyEngine Dokumentation auf Deutsch
 
-see link:https://wmiksch.github.io/JMEWikiGerman/documentation[https://wmiksch.github.io/JMEWikiGerman/documentation]
+Das Ergebnis können sie sich unter link:https://wmiksch.github.io/JMEWikiGerman/documentation[https://wmiksch.github.io/JMEWikiGerman/documentation] ansehen.
 
-The project to store, edit, and generate the documentation of http://jmonkeyengine.org[jMonkeyEngine].
+Dieses Projekt dokumentiert die http://jmonkeyengine.org[jMonkeyEngine] auf Deutsch.
 
-The documentation (<<src/docs/asciidoc>>) is editable :
+Es (<<src/docs/asciidoc>>) ist editierbar:
 
-* online via github (Edit button located at top of the Wiki page + Pull Request)
-* offline with Netbeans after local `git clone` + open
-* offline with Atom editor, see link:https://wmiksch.github.io/JMEWikiGerman/wiki/atom_editor.html[Atom Editor for Wiki Editing]
+* online mittels github (Edit Button am Anfang jeder Wikiseite + Pull Request)
+* offline mit Netbeans nach lokalem `git clone` + öffnen
+* offline mit Atom editor, siehe link:https://wmiksch.github.io/JMEWikiGerman/wiki/atom_editor.html[Atom Editor für Wiki Editierung]
 
-.Prerequisites
-.  Have a link:https://github.com/[GitHub account].
-.  Optional: Are a Wiki project member.
+.Vorraussetzungen
+.  ein link:https://github.com/[GitHub account].
+.  Optional: Wiki Projekt Mitglied (wenn sie mitarbeiten wollen schreiben sie mir vielleicht ein email <wmiksch(a)yahoo.com>.
 
-If you are not a member, you can fork the repository into your GitHub account and issue pull requests from there or
-online via github. (Edit button located at top of the Wiki page + Pull Request)
+Sind sie kein Mitglied, können sie die Repository in ihren GitHub account forken (entweder die link:https://github.com/jMonkeyEngine/wiki[englische] oder link:https://github.com/wmiksch/JMEWikiGerman[deutsche]) und dann einen pull request auslösen.
+(Oder direkt mit dem Edit-Button am Anfang jeder Wikiseite + Pull Request).
 
-To fork the Wiki repository into your GitHub Account:
+Um eine Wiki in ihren Github-Account zu forken:
 
-*  In the menu at the top of the page, select the *Fork* button.
+*  Drücken sie den *Fork* button oben im jeweiligen Github-Projekt.
 
-The syntax is asciidoc :
+Zum Schreiben der Dokumentation wird Asciidoc verwendet:
 
 *  link:http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[Asciidoc Syntax Quick Reference]
 *  link:http://asciidoctor.org/docs/user-manual/#introduction-to-asciidoctor[Asciidoctor User Manual]
 
-An easy to use primer for GitHub commands can be found here:
+Ein einfacher Primer für GitHub Kommandos können sie hier finden:
 
 *  link:http://rogerdudler.github.io/git-guide/[git - the simple guide]
 
 
-== Contribute
+== Beitragen
 
-There are a few simple rules to follow when contributing.
+Es gibt ein paar einfache Regeln, wenn sie sich beteiligen wollen:
 
 . It's not required but it's a good idea to give a heads up you made a P/R on the link:https://hub.jmonkeyengine.org/[jMonkeyEngine Forum] under the `Documentation` topic.
 .  When adding documents, make sure to always complete the header of your document first.
